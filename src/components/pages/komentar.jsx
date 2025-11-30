@@ -7,7 +7,7 @@ const Komentar = () => {
   const [formData, setFormData] = useState({
     nama: '',
     pesan: '',
-    rating: 5 // Default angka 5
+    rating: 5 
   });
   
   const [showNotification, setShowNotification] = useState(false);

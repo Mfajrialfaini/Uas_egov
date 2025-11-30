@@ -13,12 +13,12 @@ const Navbar = ({ activePage, setActivePage }) => {
   };
 
   const menuItems = [
-    { id: 'dashboard', label: '📊 Dashboard' },
-    { id: 'dokumen', label: '📂 Dokumen' },     // Baru
-    { id: 'kinerja', label: '📈 e-Kinerja' },    // Baru
-    { id: 'pengadaan', label: '🔨 Pengadaan' },  // Baru
-    { id: 'profil', label: '🏛️ Profil' },        // Baru
-    { id: 'komentar', label: '💬 Aspirasi' },
+    { id: 'dashboard', label: 'Dashboard' },
+    { id: 'dokumen', label: ' Dokumen' },     // Baru
+    { id: 'kinerja', label: ' e-Kinerja' },    // Baru
+    { id: 'pengadaan', label: ' Pengadaan' },  // Baru
+    { id: 'profil', label: ' Profil' },        // Baru
+    { id: 'komentar', label: ' Aspirasi' },
   ];
 
   return (

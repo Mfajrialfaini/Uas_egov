@@ -14,7 +14,7 @@ const Kinerja = () => {
 
   return (
     <div className="page-container">
-      <h2 className="page-title">📈 Laporan Kinerja (e-Kinerja)</h2>
+      <h2 className="page-title">Laporan Kinerja (e-Kinerja)</h2>
       <div className="kinerja-grid">
         {kpiData.map((item, index) => (
           <div key={index} className="kinerja-card">

@@ -13,7 +13,7 @@ const Dokumen = () => {
 
   return (
     <div className="page-container">
-      <h2 className="page-title">📂 Portal Dokumen Resmi</h2>
+      <h2 className="page-title">Portal Dokumen Resmi</h2>
       <div className="doc-list">
         {documents.map((doc) => (
           <div key={doc.id} className="doc-card">
